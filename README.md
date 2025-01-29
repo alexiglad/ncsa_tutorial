@@ -37,7 +37,7 @@ Qingyun tutorial (somewhat outdated): https://docs.google.com/document/u/3/d/1SM
 		- `srun --account=bcsi-delta-gpu --partition=gpuA100x4 --time=48:00:00 --mem-bind=verbose,local --gpu-bind=verbose,closest --nodes=1 --mem-per-cpu=3G --cpus-per-task=64 --gpus-per-node=4 --pty /bin/bash`
 		- `srun --account=bcsi-delta-gpu --partition=gpuA100x4-interactive --time=1:00:00 --mem-bind=verbose,local --gpu-bind=verbose,closest --nodes=1 --mem-per-cpu=3G --cpus-per-task=16 --gpus-per-node=1 --pty /bin/bash`
 			- interactive
-	- for A100 UVA
+- for A100 UVA
 		- 
 - gh200 env setup
 	- see delta ai docs for pytorch version to install (nightly)
