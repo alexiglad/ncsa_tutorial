@@ -1,0 +1,17 @@
+# delta GPU (A100's), LN = login node, RR = round robin
+  Host NCSA_DeltaA100_RR
+    HostName dlogin.delta.ncsa.illinois.edu
+    User agladstone
+    IdentityFile ~/.ssh/id_rsa
+
+  Host NCSA_DeltaA100_LN
+    HostName dt-login01.delta.ncsa.illinois.edu
+    User agladstone
+    IdentityFile ~/.ssh/id_rsa
+
+# delta AI (H100's)
+  
+  Host NCSA_DeltaH100_LN1
+    HostName gh-login01.delta.ncsa.illinois.edu
+    User agladstone
+    IdentityFile ~/.ssh/id_rsa
