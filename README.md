@@ -1,5 +1,5 @@
 ## NCSA
-Qingyun tutorial (somewhat outdated): https://docs.google.com/document/u/3/d/1SM9Fo0pd6x0DUwVoy5zJfRVqFXDCgwWP_Uw6lmtZ1PE/edit
+Xingyao/Qingyun tutorial (somewhat outdated, will update when I get time): https://docs.google.com/document/u/3/d/1SM9Fo0pd6x0DUwVoy5zJfRVqFXDCgwWP_Uw6lmtZ1PE/edit
 * helpful commands and info PLEASE READ THROUGH THEY ARE SUPER HELPFUL!!!
 * `squeue -u $USER --start`
 	* show when job starts
@@ -41,7 +41,7 @@ Qingyun tutorial (somewhat outdated): https://docs.google.com/document/u/3/d/1SM
 		- 
 - gh200 env setup
 	- see delta ai docs for pytorch version to install (nightly)
-	- see this for triton install https://drive.google.com/file/d/162mESS9BOXDxWLzj--xRU_D2u1YsEtyc/view
+	- see this for triton install (courtesy of revanth) https://drive.google.com/file/d/162mESS9BOXDxWLzj--xRU_D2u1YsEtyc/view
 		- if doesnt work the first time use setup.py to clean and retry
 	- use loose_requirements
 	- current xformers not compatible with installing triton, so cant do triton
