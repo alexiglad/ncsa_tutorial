@@ -24,8 +24,7 @@ Xingyao/Qingyun tutorial (somewhat outdated, will update when I get time): https
 	- may need to remove nvidia/triton from requirements
 - cannot use mem-per-gpu, use mem-per-cpu instead
 	- need integer value 
-- can make reservations for lots of resources if submit support ticket :)
-- try requesting access through illinois compute
+- can make reservations for lots of resources/different amounts of time if submit support ticket :)
 - use `quota` and not df -h to get accurate file storage left
 - `sacct` can show the compute allocated for a job
 	- `sacct -j job_id --format=JobID,JobName,AllocCPUS,AllocTRES,ReqMem,MaxRSS,State`
