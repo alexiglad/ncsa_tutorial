@@ -1,4 +1,4 @@
-## Tutorial
+## Tutorial (please watch below linked videos!!!)
 * [Getting access to NCSA Resources](https://youtu.be/MSqiGmOxjJA)
 * [Using NCSA Resources/GPUs](https://youtu.be/SnW_wO9H8K8) :)
 * Xingyao/Qingyun tutorial (somewhat outdated, will update when I get time): https://docs.google.com/document/u/3/d/1SM9Fo0pd6x0DUwVoy5zJfRVqFXDCgwWP_Uw6lmtZ1PE/edit
