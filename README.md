@@ -70,6 +70,7 @@ Xingyao/Qingyun tutorial (somewhat outdated, will update when I get time): https
 - for this error
 	- FATAL:   While checking container encryption: could not open image /work/hdd/bcsi/agladstone/containers/pytorch_2.4.sif: the image's architecture (amd64) could not run on the host's (arm64)
 		- need to swith dir and then rerun command...
+    
 **ZSH**
 * this caused issue with both blender, UVA, and NCSA
 	* if want to use just manually open zsh terminal. otherwise use bash
