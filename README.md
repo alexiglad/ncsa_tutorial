@@ -1,5 +1,8 @@
 ## NCSA
 Xingyao/Qingyun tutorial (somewhat outdated, will update when I get time): https://docs.google.com/document/u/3/d/1SM9Fo0pd6x0DUwVoy5zJfRVqFXDCgwWP_Uw6lmtZ1PE/edit
+* Docs and main allocations:
+	* [Delta](https://docs.ncsa.illinois.edu/systems/delta/en/latest/quick_start.html) (A100s, A40s, etc)
+	* [DeltaAI](https://docs.ncsa.illinois.edu/systems/deltaai/en/latest/index.html) (GH200's which are better than H100's)
 * helpful commands and info PLEASE READ THROUGH THEY ARE SUPER HELPFUL!!!
 * `squeue -u $USER --start`
 	* show when job starts
