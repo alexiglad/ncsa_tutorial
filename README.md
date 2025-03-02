@@ -78,3 +78,6 @@
 **ZSH**
 * this caused issue with both blender and NCSA
 	* if want to use just manually open zsh terminal. otherwise use bash
+
+**Conda**
+* [great cheat sheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
