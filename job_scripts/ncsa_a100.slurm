@@ -3,5 +3,5 @@
 #SBATCH --account=xxxx-delta-gpu # fill out xxxx with your allocation
 #SBATCH --partition=gpuA100x4
 ### NODE/CPU/MEM/GPU  ###
-#SBATCH --mem=0
+#SBATCH --mem-per-cpu=4G
 #SBATCH --cpus-per-gpu=16
