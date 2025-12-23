@@ -1,10 +1,3 @@
-#!/bin/bash
-#SBATCH --account=xxxx-delta-gpu
-#SBATCH --partition=gpuA100x4
-### NODE/CPU/MEM/GPU  ###
-#SBATCH --mem-per-cpu=4G
-#SBATCH --cpus-per-gpu=16
-
 ### ADDITIONAL RUN INFO ###
 #SBATCH --array=0
 #SBATCH --time=12:00:00
@@ -21,5 +14,3 @@ export MODEL_NAME="${RUN_NAME%%-*}"
 export MODEL_SIZE="${RUN_NAME#*-}"; export MODEL_SIZE="${MODEL_SIZE%%-*}"
 mkdir -p logs/slurm/
 module purge
-
-python3 -c "print('Hello, world!')"

@@ -1,4 +1,4 @@
-## Tutorial (please watch below linked videos!!!)
+****## Tutorial (please watch below linked videos!!!)
 * [Getting access to NCSA Resources](https://youtu.be/MSqiGmOxjJA)
 * [Getting setup on NCSA resources](https://youtu.be/jSM8yASEt3o)
 * [Using NCSA Resources/GPUs](https://youtu.be/SnW_wO9H8K8) :)
@@ -6,6 +6,12 @@
 * [NCSA Tutorial](https://www.hpc-training.org/moodle/enrol/index.php?id=94)
 
 ## Helpful Commands, Tips, and Tricks
+* Check out the [EBT readme](https://github.com/alexiglad/ebt) for great slurm scripts and how to use the slurm_executor.sh 
+  * Note how the `headerless_dummy_script.slurm` has no header, this is the recommended way to run slurm scripts
+    * Enables HPC cluster agnostic slurm scripts, which is helpful for reproducibility
+      * Since this does not specify a gpu type/cluster type
+    * Use these with the `slurm_executor.sh` (see EBT codebase for an example)
+  * Please use headered slurm scripts, like `dummy_slurm_script.slurm` sparingly
 * Docs and main allocations:
 	* [Delta](https://docs.ncsa.illinois.edu/systems/delta/en/latest/quick_start.html) (A100s, A40s, etc)
 	* [DeltaAI](https://docs.ncsa.illinois.edu/systems/deltaai/en/latest/index.html) (GH200's which are better than H100's)
