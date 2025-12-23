@@ -37,13 +37,14 @@
 - `scontrol show config` can show the controlled resources allowable to req
 	- or similarly `scontrol show job job_id` can show important info about job, such as why crashed
 - to do srun ijob in terminal (fill out xxxx with your allocation):
+    - recommended to set below as commands in bashrc, i.e. srun_1h="srun --account=xxxx-dtai-gh --partition=ghx4 --time=48:00:00 --nodes=1 --mem-per-cpu=1G --cpus-per-gpu=72 --gpus-per-node=1 --pty /bin/bash"
 	- for GH200
-		- `srun --account=xxxx-dtai-gh --partition=ghx4 --time=48:00:00 --mem-bind=verbose,local --gpu-bind=verbose,closest --nodes=1 --mem-per-cpu=1G --cpus-per-gpu=72 --gpus-per-node=4 --pty /bin/bash`
-		- `srun --account=xxxx-dtai-gh --partition=ghx4-interactive --time=1:00:00 --mem-bind=verbose,local --gpu-bind=verbose,closest --nodes=1 --mem-per-cpu=1G --cpus-per-gpu=72 --gpus-per-node=1 --pty /bin/bash`
+		- `srun --account=xxxx-dtai-gh --partition=ghx4 --time=48:00:00 --nodes=1 --mem-per-cpu=1G --cpus-per-gpu=72 --gpus-per-node=1 --pty /bin/bash`
+		- `srun --account=xxxx-dtai-gh --partition=ghx4-interactive --time=1:00:00 --nodes=1 --mem-per-cpu=1G --cpus-per-gpu=72 --gpus-per-node=1 --pty /bin/bash`
 			- interactive
 	- for A100 NCSA
-		- `srun --account=xxxx-delta-gpu --partition=gpuA100x4 --time=48:00:00 --mem-bind=verbose,local --gpu-bind=verbose,closest --nodes=1 --mem-per-cpu=3G --cpus-per-gpu=16 --gpus-per-node=4 --pty /bin/bash`
-		- `srun --account=xxxx-delta-gpu --partition=gpuA100x4-interactive --time=1:00:00 --mem-bind=verbose,local --gpu-bind=verbose,closest --nodes=1 --mem-per-cpu=3G --cpus-per-gpu=16 --gpus-per-node=1 --pty /bin/bash`
+		- `srun --account=xxxx-delta-gpu --partition=gpuA100x4 --time=48:00:00 --nodes=1 --mem-per-cpu=4G --cpus-per-gpu=16 --gpus-per-node=1 --pty /bin/bash`
+		- `srun --account=xxxx-delta-gpu --partition=gpuA100x4-interactive --time=1:00:00 --nodes=1 --mem-per-cpu=4G --cpus-per-gpu=16 --gpus-per-node=1 --pty /bin/bash`
 			- interactive
 - gh200 env setup
 	- see delta ai docs for pytorch version to install (nightly)
