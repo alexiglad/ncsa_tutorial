@@ -18,5 +18,5 @@ check_credit() {
 }
 
 # gcloud stuff, TODO set the correct dir
-# source /work/hdd/bcsi/agladstone/misc/google-cloud-sdk/completion.bash.inc
-# source /work/hdd/bcsi/agladstone/misc/google-cloud-sdk/path.bash.inc
+# source /../google-cloud-sdk/completion.bash.inc
+# source /../google-cloud-sdk/path.bash.inc
